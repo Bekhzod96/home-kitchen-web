@@ -2,10 +2,8 @@ import React, { useState } from 'react';
 import {
 	Carousel,
 	CarouselItem,
-	CarouselIndicators,
 	CarouselControl,
 	Button,
-	Container,
 } from 'reactstrap';
 import {items} from '../assets/data'
 
@@ -29,7 +27,7 @@ const SocondSection = () => {
 		return (
 			<CarouselItem className="carousel" tag="div" key={item.id}>
 				<div className="row align-items-center h-100 ">
-					<div className="text-center mx-auto w-50">
+					<div className="text-center mx-auto carousel-width">
 						<h6>What Our Customers Say</h6>
 						<h3>Over 35 years experience designing handmade kitchens</h3>
 						<p>
