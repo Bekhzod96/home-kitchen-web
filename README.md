@@ -22,9 +22,9 @@
 
 ## Description
 
-> This Application build by using ReactJS Library. Layout was taken from MTC Home Kitchen.
+> This Application build by using ReactJS Library. Layout was taken from MTC Home Kitchen.**Final Result screenshot provided down below. To test  <a href="https://home-kitchen-beka.web.app/"> Live View</a> of the application check a link below.** 
 
-**Final Result look like that and you can try a <a href="https://home-kitchen-beka.web.app/"> Live View</a> also.** <img src="./src/assets/Result-Home-Kitchen.jpg" >
+<img src="./src/assets/Result-Home-Kitchen.jpg" >
 
 ## Built With
 
