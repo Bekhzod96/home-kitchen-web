@@ -36,7 +36,7 @@ const CarouselBanner = () => {
 						<div className="text-center mx-auto">
 							<p>Design and order your new kitchen online today</p>
 							<h3>Bespoke & made to measure handmade kitchen design</h3>
-							<Button className="px-5">Order Now</Button>
+							<Button>Order Now</Button>
 						</div>
 					</div>
 				</div>
@@ -45,7 +45,7 @@ const CarouselBanner = () => {
 	});
 
 	return (
-		<div className='banner'>
+		<div className="banner">
 			<Carousel activeIndex={activeIndex}>
 				<CarouselIndicators
 					items={items}

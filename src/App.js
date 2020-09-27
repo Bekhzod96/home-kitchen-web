@@ -4,12 +4,14 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 import Carousel from './components/Carousel';
 import Header from './components/Header';
+import Section from './components/Section';
 library.add(fab, faShoppingCart);
 function App() {
 	return (
 		<div className="App">
 			<Header />
 			<Carousel />
+			<Section />
 		</div>
 	);
 }

@@ -56,41 +56,42 @@ const Logo = (
 );
 
 const Header = () => {
-	const [isOpen, setIsOpen] = useState(false);
-	const toggle = () => setIsOpen(!isOpen);
 	return (
 		<div className="header">
-			<Container className="container text-center p-0" fluid="lg">
-				<Navbar light expand="md" className="p-0">
-					<NavbarToggler onClick={toggle} />
-					<Collapse isOpen={isOpen} navbar className="row">
+			<div className="container1 text-center p-0 m-auto ">
+				<Navbar light expand="xl" className="p-0">
+					<Col
+						lg="2"
+						md="3"
+						className="text-white hide-sm row justify-content-start align-items-center"
+					>
+						<FontAwesomeIcon className="mx-1" icon={['fab', 'facebook-f']} />
+						<FontAwesomeIcon className="mx-2" icon={['fab', 'twitter']} />
+						<FontAwesomeIcon className="mx-1" icon={['fab', 'instagram']} />
+					</Col>
+					<Col lg="8" md="6" sm="6" className=" row p-0 ">
+						<Col lg="4" className="row align-items-center hide-md  flex-nowrap">
+							<p>Shop</p>
+							<p>Plan my kitchen</p>
+						</Col>
+						<Col lg="4" md="12" sm="6" xs="12" className="order-sm-0">
+							{Logo}
+						</Col>
 						<Col
-							md={2}
-							className="text-white row justify-content-start align-items-center"
+							lg="4"
+							className="row align-items-center s hide-md  flex-nowrap"
 						>
-							<FontAwesomeIcon className="mx-1" icon={['fab', 'facebook-f']} />
-							<FontAwesomeIcon className="mx-2" icon={['fab', 'twitter']} />
-							<FontAwesomeIcon className="mx-1" icon={['fab', 'instagram']} />
+							<p>About Us</p>
+							<p>Gallery</p>
 						</Col>
-						<Col md={8} className=" row p-0 ">
-							<Col md={4} className="row align-items-center">
-								<p>Shop</p>
-								<p>Plan my kitchen</p>
-							</Col>
-							<Col md={4}>{Logo}</Col>
-							<Col md={4} className="row align-items-center ">
-								<p>About Us</p>
-								<p>Gallery</p>
-							</Col>
-						</Col>
-						<Col md={2} className=" ml-auto">
-							<Button className="px-4" outline>
-								My Order <FontAwesomeIcon icon={faShoppingCart} />
-							</Button>
-						</Col>
-					</Collapse>
+					</Col>
+					<Col lg="2" md="3" sm="6" xs="6" className=" hide-xsm ml-auto">
+						<Button outline>
+							My Order <FontAwesomeIcon icon={faShoppingCart} />
+						</Button>
+					</Col>
 				</Navbar>
-			</Container>
+			</div>
 		</div>
 	);
 };
