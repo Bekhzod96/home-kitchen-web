@@ -6,17 +6,7 @@ import {
 	CarouselCaption,
 	Button,
 } from 'reactstrap';
-const items = [
-	{
-		id: 1,
-	},
-	{
-		id: 2,
-	},
-	{
-		id: 3,
-	},
-];
+import {items} from '../assets/data'
 
 const CarouselBanner = () => {
 	const [activeIndex, setActiveIndex] = useState(0);

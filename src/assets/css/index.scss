@@ -141,53 +141,87 @@ body {
 .second-section {
   background-color: #eeeeee;
   width: 100%;
-    .carousel {
-      width: 100%;
-      height: 40vw;
+  .carousel {
+    width: 100%;
+    height: 40vw;
 
-      h3 {
-        font-family: Helvetica, sans-serif;
-        font-weight: 700;
-        font-size: 2.8vw;
-        text-align: center;
-        color: #222222;
-        padding: 2%;
-      }
-
-      h6 {
-        font-size: 1.2vw;
-        text-align: center;
-        letter-spacing: 3px;
-        color: #d4b254;
-        text-transform: uppercase;
-      }
-
-      p {
-        font-size: 1.5vw;
-        font-family: Arial, Helvetica, sans-serif;
-        text-align: center;
-        letter-spacing: 0px;
-        color: #777777;
-      }
-
-      small {
-        font-family: 'Roboto-Regular, Helvetica, sans-serif';
-        font-size: 1.3vw;
-        text-align: left;
-        letter-spacing: 0px;
-        color: #777777;
-      }
-      button {
-        background: #d4b254 0% 0% no-repeat padding-box;
-        box-shadow: 0px 2px 10px #00000033;
-        border-radius: 30px;
-        padding: 0.7vw 2vw;
-        margin-top: 2%;
-        font-size: 1.4vw;
-        letter-spacing: 3px;
-        text-transform: uppercase;
-      }
+    h3 {
+      font-family: Helvetica, sans-serif;
+      font-weight: 700;
+      font-size: 2.8vw;
+      text-align: center;
+      color: #222222;
+      padding: 2%;
     }
+
+    h6 {
+      font-size: 1.2vw;
+      text-align: center;
+      letter-spacing: 3px;
+      color: #d4b254;
+      text-transform: uppercase;
+    }
+
+    p {
+      font-size: 1.5vw;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+      letter-spacing: 0px;
+      color: #777777;
+    }
+
+    small {
+      font-family: "Roboto-Regular, Helvetica, sans-serif";
+      font-size: 1.3vw;
+      text-align: left;
+      letter-spacing: 0px;
+      color: #777777;
+    }
+    button {
+      background: #d4b254 0% 0% no-repeat padding-box;
+      box-shadow: 0px 2px 10px #00000033;
+      border-radius: 45px;
+      padding: 0.7vw 2vw;
+      margin-top: 2%;
+      font-size: 1.4vw;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.third-section {
+  width: auto;
+  height: 40vw;
+
+  padding: 5% 10%;
+  .content {
+    height: 100%;
+    h2 {
+      font-family: Helvetica, sans-serif;
+      font-size: 42px;
+      margin: 2% 0;
+      font-weight: 900;
+      text-align: center;
+      letter-spacing: 0px;
+      color: #222222;
+    }
+    img {
+      height: 100%;
+      width: 100%;
+    }
+
+    button {
+      background: #d4b254 0% 0% no-repeat padding-box;
+      box-shadow: 0px 2px 10px #00000033;
+      border-radius: 45px;
+      padding: 0.7vw 2vw;
+      margin-top: 4%;
+      font-size: 1.2vw;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+    }
+  }
 }
 $breakpoint-md-min: 768px;
 $breakpoint-md-max: 991px;
@@ -198,9 +232,10 @@ $breakpoint-sm-max: 767.98px;
 $breakpoint-x-sm-max: 576px;
 
 @media (min-width: $breakpoint-md-min) and (max-width: $breakpoint-md-max) {
-  .hide-md {
+  .hide-md, .hide-md-only{
     display: none !important;
   }
+  
 }
 
 @media (min-width: $breakpoint-sm-min) and (max-width: $breakpoint-sm-max) {

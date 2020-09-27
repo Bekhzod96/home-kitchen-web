@@ -5,10 +5,11 @@ import {
 	faShoppingCart,
 	faChevronRight,
 } from '@fortawesome/free-solid-svg-icons';
-import Carousel from './components/Carousel';
-import Header from './components/Header';
-import FirstSection from './components/FirstSection';
-import SecondSection from './components/SocondSection';
+import Carousel from './components/Carousel.jsx';
+import Header from './components/Header.jsx';
+import FirstSection from './components/FirstSection.jsx';
+import SecondSection from './components/SocondSection.jsx';
+import ThirdSection from './components/ThirdSection';
 library.add(fab, faShoppingCart, faChevronRight);
 function App() {
 	return (
@@ -17,6 +18,7 @@ function App() {
 			<Carousel />
 			<FirstSection />
 			<SecondSection />
+			<ThirdSection />
 		</div>
 	);
 }

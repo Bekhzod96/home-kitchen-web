@@ -7,8 +7,7 @@ import {
 	Button,
 	Container,
 } from 'reactstrap';
-
-const items = [{ id: 1 }, { id: 2 }, { id: 3 }];
+import {items} from '../assets/data'
 
 const SocondSection = () => {
 	const [activeIndex, setActiveIndex] = useState(0);
