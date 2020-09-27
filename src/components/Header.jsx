@@ -1,12 +1,5 @@
-import React, { useState } from 'react';
-import {
-	Container,
-	Collapse,
-	NavbarToggler,
-	Navbar,
-	Button,
-	Col,
-} from 'reactstrap';
+import React from 'react';
+import {Navbar,	Button,	Col} from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 

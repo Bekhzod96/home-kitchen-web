@@ -14,18 +14,22 @@
 <p align="center">
   • <a href="#how-to-use">How To Use</a> •
   <a href="#built-with">Built With</a> •
-  <a href="#use-case">Use Case</a> •
-  <a href="#file-structure">File Stucture</a> •
+  <a href="#description">Description</a> •
+  <a href="#file-stucture">File Stucture</a> •
+   <a href="#author">Author</a> •
 
 </p>
 
-## Use Case
+## Description
 
 > This Application build by using ReactJS Library. Layout was taken from MTC Home Kitchen.
 
+Finial Result look like that and you can try a <a href="https://home-kitchen-beka.web.app/"> Live View</a> also. <img src="./src/assets/Result-Home-Kitchen.jpg" >
+
 ## Built With
 
- <h2>React  <a href="https://opencollective.com/choo/sponsor/0/website" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/320px-React-icon.svg.png" height="100px" style="float:right"></a> </h2>
+ <h2>React  <a href="https://opencollective.com/choo/sponsor/0/website" target="_blank">
+ <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/320px-React-icon.svg.png" height="100px" style="float:right"></a> </h2>
  <hr>
 
 ## Tools
@@ -58,7 +62,25 @@ $ npm start
 
 ```
 
-## Authors
+## File Stucture
+
+```bash
+# All the code is insight /src folder
+Main Entry Point to the application is
+
+$ cd ./src/index.js
+
+#All React Component allocated in
+
+$ cd ./src/components
+
+#Layout of the Application is on
+
+$ cd ./src/App.js
+
+```
+
+## Author
 
 👤 **Bekhzod Akhrorov**
 
