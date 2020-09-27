@@ -2,7 +2,7 @@ import React from 'react';
 import { Col, Button, Container } from 'reactstrap';
 import img from '../assets/img/2.png';
 
-const Section = () => {
+const FirstSection = () => {
 	return (
 		<div className="first-section row align-items-center">
 			<Col lg="6" md="6" sm="6">
@@ -25,4 +25,4 @@ const Section = () => {
 	);
 };
 
-export default Section;
+export default FirstSection;
