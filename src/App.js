@@ -10,6 +10,7 @@ import Header from './components/Header.jsx';
 import FirstSection from './components/FirstSection.jsx';
 import SecondSection from './components/SocondSection.jsx';
 import ThirdSection from './components/ThirdSection';
+import Footer from './components/Footer';
 library.add(fab, faShoppingCart, faChevronRight);
 function App() {
 	return (
@@ -19,6 +20,7 @@ function App() {
 			<FirstSection />
 			<SecondSection />
 			<ThirdSection />
+			<Footer />
 		</div>
 	);
 }

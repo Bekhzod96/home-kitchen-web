@@ -10,7 +10,7 @@ import {
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 
-const Logo = (
+export const Logo = (
 	<svg
 		className="logo"
 		version="1.0"
@@ -69,7 +69,7 @@ const Header = () => {
 						md="2"
 						className="hide-sm row justify-content-start align-items-center"
 					>
-						<FontAwesomeIcon className="mx-1" icon={['fab', 'facebook-f']} />
+						<FontAwesomeIcon  className="mx-1 " icon={['fab', 'facebook-f']} />
 						<FontAwesomeIcon className="mx-2" icon={['fab', 'twitter']} />
 						<FontAwesomeIcon className="mx-1" icon={['fab', 'instagram']} />
 					</Col>

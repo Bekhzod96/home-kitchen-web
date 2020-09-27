@@ -28,7 +28,7 @@ const SocondSection = () => {
 	const slides = items.map((item) => {
 		return (
 			<CarouselItem className="carousel" tag="div" key={item.id}>
-				<div className="row align-items-center h-100">
+				<div className="row align-items-center h-100 ">
 					<div className="text-center mx-auto w-50">
 						<h6>What Our Customers Say</h6>
 						<h3>Over 35 years experience designing handmade kitchens</h3>
